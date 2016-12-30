@@ -1,0 +1,26 @@
+## 0.3.0
+- Add combinators for sets
+- Add combinators for bijective mappings
+- Remove [`a to_sexp] type-classes. Now [show] returns the JSON
+  representation of the value. Asking for both [to_sexp] and
+  [to_json] was a bit too much.
+- Do not depend on sexplib anymore
+
+## 0.2.1
+- Report more useful errors on binary parse errors
+- Add cstructs combinators
+- Fix Tc.List.equal
+
+## 0.2.0 (2014-12-04)
+- Add bool base type-classes
+- Rename I0, I1, I2, I3 to S0, S1, S2 and S3
+- Expose value combinators (to mirror the functor combinators)
+- Remove dependency to camlp4
+- Add combinators for triples
+- Rename base type-classes
+- Expose more useful type-classes generators
+- Add base combinators for all the type-classes
+- Expose Reader.parse_error
+
+## 0.1.0 (2014-10-26)
+- Initial release
